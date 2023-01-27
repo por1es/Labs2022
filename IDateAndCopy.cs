@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LAB1
+{
+    //определяем интерфейс IDateAndCopy. Добавим его реализацию в другие классы
+    interface IDateAndCopy
+    {
+        object DeepCopy();
+        DateTime Date {get;set;} 
+    }
+}
